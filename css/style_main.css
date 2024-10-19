@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Actinia';
-    src: url("Actinia\\Actinia-Regular.otf") format("opentype");
+    src: url("../Actinia\\Actinia-Regular.otf") format("opentype");
 }
 html,
 body {
@@ -8,10 +8,13 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    background-image: url('/imgs/abstract-green-watercolor-background.png');
-    background-size: cover;
+    
+    
     /* background-position: center; */
     /* height: 160vh; */
+}
+html{
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -19,4 +22,8 @@ a {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.d-flex {
+    display: flex;
 }

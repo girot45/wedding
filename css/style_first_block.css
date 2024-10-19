@@ -15,6 +15,14 @@
 
 #first_block {
     height: 100vh;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(243, 244, 241, 1) 100%),
+    url('/imgs/abstract-green-watercolor-background.png');
+        /* linear-gradient(to bottom, #F4F3F1 100%, #F4F3F1 0%) */
+        
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    
     /* Или любое другое значение */
 }
 
@@ -76,12 +84,13 @@ nav a p {
 }
 
 #pinkrose {
-    float: right;
+    
     position: absolute;
     max-width: 52%;
-    right: -40%;
+    right: 0;
     margin: 0;
     margin-top: 8vh;
+    transform: translateX(75%);
 }
 
 #Group4 {
