@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Actinia';
+    src: url("Actinia\\Actinia-Regular.otf") format("opentype");
+}
+html,
+body {
+    background-color: #F4F3F1;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url('/imgs/abstract-green-watercolor-background.png');
+    background-size: cover;
+    /* background-position: center; */
+    /* height: 160vh; */
+}
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
