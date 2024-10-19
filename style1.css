@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Actinia';
+    src: url("Actinia\\Actinia-Regular.otf") format("opentype");
+}
+
+html,
+body {
+    background-color: #F4F3F1;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#chinarose {
+    position: absolute;
+    max-width: 40%;
+    left: -4%;
+    top: 39px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#abstractbg {
+    width: 100%;
+    position: absolute;
+}
+
+#first_block {
+    background-image: url('/imgs/abstract-green-watercolor-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 160vh;
+    /* Или любое другое значение */
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    z-index: 9;
+}
+
+#wedding_text {
+    font-size: 6vw;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+
+    /* свадьба */
+    font-family: 'Actinia';
+    font-style: normal;
+    line-height: 110px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #85B089;
+    font-weight: 250;
+    font-size: 5.5em;
+    align-self: flex-end;
+
+}
+
+#rightpart {
+    text-align: right;
+    z-index: 9;
+    
+}
+
+a p {
+    color: #383838;
+    font-family: "El Messiri", sans-serif;
+    font-weight: 500;
+    font-size: 1.33vw;
+}
+
+#heart {
+    max-width: 30%;
+}
+
+#wedding_text_heart, #center,#sdfasd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    
+}
+#sdfasd{
+    margin-top: 1.5em;
+    flex-direction: column;
+    text-align: right;
+    gap: 2em;
+    margin-right: 3%;
+    float: right;
+}
+
+
+
+/* /* abstract-green-watercolor-background 2 */
+
+#Group4{
+    display: flex;
+    margin-left: 6%;
+    gap: 3em;
+    
+    justify-content: flex-end;
+    align-items: stretch;
+
+    max-width: 80%;
+    transform: translateY(-110px);
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.names{
+align-self: center;
+font-family: 'El Messiri';
+font-style: normal;
+font-size: 5.5em;
+color: #566660;
+}
+
+
+
+
+#Vector
+{ 
+
+    align-self: center;
+    max-height: 4em;
+
+
+}  
