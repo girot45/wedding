@@ -13,9 +13,9 @@ body {
 
 #chinarose {
     position: absolute;
-    max-width: 40%;
+    max-width: 39%;
     left: -4%;
-    top: 39px;
+    top: 30px;
 }
 
 a {
@@ -44,21 +44,15 @@ nav {
 }
 
 #wedding_text {
-    font-size: 6vw;
     padding: 0;
     margin: 0;
-    width: fit-content;
-
-    /* свадьба */
     font-family: 'Actinia';
     font-style: normal;
-    line-height: 110px;
-    /* identical to box height */
     text-align: center;
 
     color: #85B089;
     font-weight: 250;
-    font-size: 5.5em;
+    font-size: 5vw;
     align-self: flex-end;
 
 }
@@ -76,7 +70,7 @@ a p {
     font-size: 1.33vw;
 }
 
-#heart {
+#heart1 {
     max-width: 30%;
 }
 
@@ -95,20 +89,26 @@ a p {
     float: right;
 }
 
-
-
-/* /* abstract-green-watercolor-background 2 */
+#pinkrose{
+    float: right;
+    position: absolute;
+    max-width: 52%;
+    right: -40%;
+    transform: translateY(17%);
+    /* left: -4%; */
+    /* top: 30px; */
+}
 
 #Group4{
     display: flex;
-    margin-left: 6%;
-    gap: 3em;
+    margin-left: 5%;
+    gap: 2.7vw;
     
     justify-content: flex-end;
     align-items: stretch;
 
     max-width: 80%;
-    transform: translateY(-110px);
+    transform: translateY(-50%);
     position: relative;
 }
 
@@ -120,18 +120,48 @@ a p {
 align-self: center;
 font-family: 'El Messiri';
 font-style: normal;
-font-size: 5.5em;
+font-weight: 500;
+font-size: 5.1vw;
 color: #566660;
+line-height: 20vh;
+margin: 0;
 }
-
-
-
 
 #Vector
 { 
-
     align-self: center;
-    max-height: 4em;
-
-
+    max-height: 7.3vh;
 }  
+
+#date_text{
+    font-family: 'Actinia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 6vh;
+    color: #85B089;
+    text-align: center;
+    margin: 0;
+    margin-top: 7%;
+    margin-left: 12%;
+    padding: 0;
+    transform: translateY(60%);
+}
+#heart123{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+}
+#heart4{
+    margin: 0;
+    margin-top: 10%;
+    position: absolute;
+    max-width: 5%;
+    
+}
+
+.centergroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
