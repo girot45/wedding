@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="css/style_block1.css">
     <link rel="stylesheet" href="css/style_block2.css">
     <link rel="stylesheet" href="css/style_block3.css">
+    <link rel="stylesheet" href="css/style_block4.css">
     
 </head>
 
 <body>
-    <div id="first_block">
+    <div id="block1">
         <header>
             <nav>
                 <a href="#"><p>Наша история</p></a>
@@ -46,19 +47,19 @@
         </div>
         <p id="date_text">17/08/2025</p>
     </div>
-    <div class="content_block"  id="second_block">
+    <div class="content_block"  id="block2">
         <div class="header">
             <h3>дорогие родные и близкие!</h3>
-            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+            <img id="block2_img"  class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
         </div>
-        <img id="second_block_flower" src="imgs\hand-painted-watercolor-flower-collection 2.png" alt="">
+        <img id="block2_flower" src="imgs\hand-painted-watercolor-flower-collection 2.png" alt="">
         <p>
             Мы будем рады разделить с вами радость самого важного для нас дня — <b>дня нашей свадьбы.</b> <br>
             Приглашаем вас присоединиться к нашему празднику <br>и украсить его своим присутствием.
         </p>
     </div>
     <img id="leaves" src="imgs/Group 10.png" alt="">
-    <div class="content_block" id="third_block">
+    <div class="content_block" id="block3">
         <div class="header">
             <h3>до свадьбы осталось</h3>
             <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
@@ -74,8 +75,93 @@
         </div>
 
     </div>
-    <div></div>
-    <div></div>
+    <div class="content_block" id="block4">
+        <div class="header">
+            <h3>жених и невеста</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+            <img id="block4_flower" src="imgs/hand-drawn-flowers-leaves-collection 1.png" alt="">
+        </div>
+        <div class="content_about">
+            <div class="container_about_man">
+                <img id="man" src="imgs/man.png" alt="">
+                <div class="container_about_text">
+                    <h3>Кирилл, овен &#9800;</h3>
+                    <p>Любит Лулечку, арбузы и зарабатывать деньги <br> на Лулечку и арбузы</p>
+                    <p>В детстве хотел стать гонщиком, поэтому сейчас гоняет на работу</p>
+                </div>
+            </div>
+            <div class="container_about_woman">
+                <div class="container_about_text">
+                    <h3>Юля (Лулечка), лев &#9804;</h3>
+                    <p>Любит Кирилла, лошадей и то, что Кирилл родился в год лошади</p>
+                    <p>В детстве сказала родителям, что она хулиганка, <br>с тех пор себе не изменяет</p>
+                </div>
+                <img id="woman"  src="imgs/woman.png" alt="">
+            </div>
+
+        </div>
+        <img id="block4_flower_end" src="imgs/hand-painted-watercolor-flower-collection 2-1.png" alt="">
+        
+    </div>
+    <div class="content_block" id="block5">
+        <div class="header">
+            <h3>история в датах</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+    </div>
+    <div class="content_block" id="block6">
+        <div class="header">
+            <h3>мстория в датах</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+    </div>
+    <div class="content_block" id="block7">
+        <div class="header">
+            <h3>мстория в датах</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+    </div>
+    <div class="content_block" id="block8">
+        <div class="header">
+            <h3>мстория в датах</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+    </div>
+    <div class="content_block" id="block9">
+        <div class="header">
+            <h3>мстория в датах</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+    </div>
+
     <script src="js/timer.js"></script>
+<script>
+    function adjustImageWidths() {
+        // Получаем все элементы с классом "header"
+        const headers = document.querySelectorAll('.header');
+
+        headers.forEach(header => {
+            const h3Element = header.querySelector('h3'); // Находим заголовок в текущем блоке
+            const imgElement = header.querySelector('.header_background'); // Находим изображение в текущем блоке
+            let width = 0;
+            if (h3Element && imgElement) {
+                if (imgElement.id === "block2_img") {
+                    width = h3Element.offsetWidth + 40;
+                } else {
+                    width = h3Element.offsetWidth + 30;
+                }
+                // Устанавливаем ширину изображения равной ширине заголовка
+                imgElement.style["max-width"] = `${width}px`;
+            }
+        });
+    }
+
+    // Вызываем функцию при загрузке страницы
+    document.addEventListener("DOMContentLoaded", adjustImageWidths);
+
+    // Вызываем функцию при изменении размера окна
+    window.addEventListener("resize", adjustImageWidths);
+</script>
+
 </body>
 </html>

@@ -8,10 +8,6 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    
-    
-    /* background-position: center; */
-    /* height: 160vh; */
 }
 html{
     overflow-x: hidden;
@@ -31,7 +27,6 @@ a {
 
 .content_block {
     margin: auto;
-    margin-top: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +42,18 @@ a {
     max-width: 70%;
 }
 .header_background {
-    max-width: 100%;
+    /* max-width: 100%; */
     align-self: center;
+}
+.header h3 {
+    position: absolute;
+    margin: 0;
+    font-family: 'Actinia';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 7.3vh;
+    align-self: center;
+    z-index: 1;
+    transform: translateY(-10%);
+    color: #566660;
 }

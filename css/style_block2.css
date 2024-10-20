@@ -1,23 +1,9 @@
-#second_block{
+#block2{
     max-width: 60%;
+    margin-top: 30vh;
 }
 
-.header h3{
-    position: absolute;
-    margin: 0;
-    font-family: 'Actinia';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 7vh;
-    align-self: center;
-    z-index: 1;
-    transform: translateY(-40%);
-    color: #566660;
-}
-
-
-
-#second_block_flower{
+#block2_flower{
     max-width: 7%;
     align-self: end;
     position: absolute;
@@ -25,7 +11,7 @@
     
 }
 
-#second_block p {
+#block2 p {
     margin: 0;
     margin-top: 10vh;
     font-family: 'El Messiri';
@@ -43,5 +29,9 @@
     transform: translateX(-3vw);
 }
 
+
+#block2 img{
+    
+}
 
 

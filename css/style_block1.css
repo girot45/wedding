@@ -13,7 +13,7 @@
     position: absolute;
 }
 
-#first_block {
+#block1 {
     height: 100vh;
     background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(243, 244, 241, 1) 100%),

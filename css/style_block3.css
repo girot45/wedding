@@ -1,12 +1,9 @@
-#third_block{
+#block3{
     max-width: 60%;
     margin-top: 15vh;
 }
-#third_block .header{
+#block3 .header{
     margin-bottom: 10vh;
-}
-#third_block .header_background {
-    max-width: 80%;
 }
 
 
