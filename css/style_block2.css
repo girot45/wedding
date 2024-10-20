@@ -1,28 +1,8 @@
 #second_block{
-    margin: auto;
-    margin-top: 30vh;
-    display: flex;
-    flex-direction: column;
     max-width: 60%;
-    align-items: center;
-    justify-content: center;
-
-    
 }
 
-#header {
-    /* background-image: url("../imgs/abstract-green-watercolor-background\ 3\ \(1\).png");
-    background-size: cover;
-    height: 30vh; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 70%;
-
-}
-
-#header h3{
+.header h3{
     position: absolute;
     margin: 0;
     font-family: 'Actinia';
@@ -37,15 +17,9 @@
 
 
 
-#header_background{
-    max-width: 100%;
-    align-self: center;
-}
-
 #second_block_flower{
-    max-width: 6%;
-    align-self: self-end;
-    align-items: end;
+    max-width: 7%;
+    align-self: end;
     position: absolute;
     transform: translateX(15vw);
     

@@ -159,8 +159,4 @@ nav a p {
     justify-content: center;
 }
 
-#second_block {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
+

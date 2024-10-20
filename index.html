@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Свадьба</title>
+    <meta http-equiv="cache-control" content="no-cache" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style_main.css">
-    <link rel="stylesheet" href="css/style_first_block.css">
-    <link rel="stylesheet" href="css/style_second_block.css">
+    <link rel="stylesheet" href="css/style_block1.css">
+    <link rel="stylesheet" href="css/style_block2.css">
+    <link rel="stylesheet" href="css/style_block3.css">
     
 </head>
 
@@ -44,10 +46,10 @@
         </div>
         <p id="date_text">17/08/2025</p>
     </div>
-    <div id="second_block">
-        <div id="header">
+    <div class="content_block"  id="second_block">
+        <div class="header">
             <h3>дорогие родные и близкие!</h3>
-            <img id="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
         </div>
         <img id="second_block_flower" src="imgs\hand-painted-watercolor-flower-collection 2.png" alt="">
         <p>
@@ -56,6 +58,24 @@
         </p>
     </div>
     <img id="leaves" src="imgs/Group 10.png" alt="">
-    
+    <div class="content_block" id="third_block">
+        <div class="header">
+            <h3>до свадьбы осталось</h3>
+            <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
+        </div>
+        <div class="timer">
+            <div class="timer__items">
+            <div class="timer__item timer__days">00</div> 
+            <img id="timer_flower"  src="imgs/watercolor-artistic-floral-branch-collection 4.png" alt="">          
+            <div class="timer__item timer__hours">00</div>
+            <div class="timer__item timer__minutes">00</div>
+            <div class="timer__item timer__seconds">00</div>
+            </div>
+        </div>
+
+    </div>
+    <div></div>
+    <div></div>
+    <script src="js/timer.js"></script>
 </body>
 </html>
