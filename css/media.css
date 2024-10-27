@@ -77,4 +77,20 @@ max-width: 90%;
 #leaves{
     display: none;
 }
+
+.timer__item::before {
+    font-size: 1.7vh;
+}
+#timer_flower {
+    position: absolute;
+    max-width: 7%;
+    transform: translateX(16vw) translateY(0.5vh);
+    z-index: 1;
+}
+.timer__items {
+    font-size: 12vw;
+}
+#block3 .header {
+    margin-bottom: 5vh;
+}
 }
