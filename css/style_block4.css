@@ -45,6 +45,12 @@
     flex-direction: column;
 }
 
+.container_about_text div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .container_about_text h3{
     margin: 0;
     font-family: 'El Messiri';
