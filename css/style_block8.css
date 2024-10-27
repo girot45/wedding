@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: flex-end;
 }
-.leaves #leaves{
+.leaves #leaves_bottom{
     margin-left: auto;
     transform: translateX(1vw);
 }

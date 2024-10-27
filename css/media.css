@@ -156,4 +156,28 @@
     .timeline{
         display: block;
     }
+    #block7 span{
+        margin-top: 7vh;
+        font-size: 2.1vh;
+        line-height: 4vh;
+        max-width: 95%;
+
+    }
+    .circles {
+        margin-top: 5vh;
+        max-width: 90%;
+    }
+        .circle{
+            height: 5vh;
+            width: 5vh;
+        }
+    #pink_flower{
+        display: none;
+    }
+    #leaves_block7{
+        display: block;
+    }
+        #leaves_bottom{
+            display: none;
+        }
 }
