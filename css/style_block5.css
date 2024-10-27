@@ -102,9 +102,3 @@
     opacity: 70%;
 }
 
-@media (max-width: 1450px) {
-    #horizontal_line{
-        min-width: 58%;
-    }
-    
-}
