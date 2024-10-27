@@ -53,5 +53,28 @@
         justify-content: start;
         margin-left: 10vw;
     }
-    
+    .header h3{
+        font-size: 7vw;
+    }
+#block2 {
+max-width: 90%;
+    margin-top: 30%;
+}
+#block2_flower {
+    max-width: 13%;
+    transform: translateY(250%);
+
+}
+#block2 p{
+    margin-top: 20%;
+    font-size: 5vw;
+    max-width: 100%;
+    line-height: 4vh;
+}
+.hidden-br {
+    display: none;
+}
+#leaves{
+    display: none;
+}
 }
