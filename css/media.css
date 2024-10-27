@@ -41,8 +41,7 @@
         transform: translate(88vw,75%)
     }
     #date_text{
-        /* display: none; */
-        transform: translateY(560%);
+        margin-top: 80%;
         font-size: 50px;
     }
     #heart4 {
@@ -51,9 +50,7 @@
         transform: translateY(37vh);
     }
     #heart123 {
-        display: flex;
         justify-content: start;
-        max-width: 70%;
         margin-left: 10vw;
     }
     
