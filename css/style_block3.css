@@ -13,6 +13,7 @@
 }
 
 .timer__item {
+    font-family: 'Actinia';
     position: relative;
     min-width: 6vw;
     margin-left: 3vw;
@@ -23,7 +24,7 @@
 }
 
 .timer__item::before {
-
+    font-family: 'Actinia';
     content: attr(data-title);
     display: block;
     position: absolute;
@@ -42,7 +43,6 @@
     font-family: 'Actinia';
     position: absolute;
     right: -5vw;
-    top: 1vh;
     color: #85B089;
 }
 .timer__days{

@@ -84,7 +84,7 @@
     #timer_flower {
         position: absolute;
         max-width: 7%;
-        transform: translateX(72px) translateY(0.5vh);
+        transform: translateX(80px) translateY(0.5vh);
         z-index: 1;
     }
     .timer__items {
