@@ -177,7 +177,15 @@
     #leaves_block7{
         display: block;
     }
-        #leaves_bottom{
-            display: none;
-        }
+    .leaves{
+        display: none;
+    }
+    #block8 span {
+        font-size: 2vh;
+        font-weight: 400;
+        line-height: 3vh;
+    }
+    #map{
+        max-width: 100%;
+    }
 }
