@@ -42,8 +42,8 @@
     }
     #date_text{
         /* display: none; */
-        transform: translateY(35vh);
-        font-size: 6vh;
+        transform: translateY(560%);
+        font-size: 50px;
     }
     #heart4 {
         margin-top: 0%;
