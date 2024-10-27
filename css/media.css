@@ -1,4 +1,5 @@
 @media (max-width: 450px) {
+
     nav{
         display: none;
     }
@@ -21,48 +22,22 @@
         max-width: 20%;
     }
     #Group4 {
-        display: flex;
         flex-direction: column;
         margin-left: 15%;
         gap: 1vw;
-
-        justify-content: flex-end;
-        align-items: stretch;
-
-        max-width: 80%;
         transform: translateY(5vh);
-        position: relative;
     }
     .names {
-        align-self: center;
-        font-family: 'El Messiri';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15vw;
-        color: #566660;
+        font-size: 13vw;
         line-height: 8vh;
-        margin: 0;
-        
     }
     #Vector {
-        align-self: center;
         max-height: 7.3vh;
     }
-    #heart4 {
-        margin: 0;
-        margin-top: 10%;
-        position: absolute;
-        max-width: 5%;
-
-    }
     #pinkrose {
-
-        position: absolute;
-        max-width: 200%;
-        /* right: 0; */
+        max-width: 190%;
         margin: 0;
         transform: translate(88vw, 54vh)
-        /* transform:  */
     }
     #date_text{
         /* display: none; */
@@ -70,9 +45,7 @@
         font-size: 6vh;
     }
     #heart4 {
-        margin: 0;
         margin-top: 0%;
-        position: absolute;
         max-width:25%;
         transform: translateY(37vh);
     }
