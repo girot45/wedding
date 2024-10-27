@@ -93,4 +93,55 @@ max-width: 90%;
 #block3 .header {
     margin-bottom: 5vh;
 }
+#block4_flower{
+    display: none;
+}
+#block4{
+    margin-top: 20%;
+}
+
+.content_about {
+    margin-top: 2%;
+    gap: 10%;
+}
+.container_about_man,
+.container_about_woman {
+    flex-direction: column;
+    gap: 1vw;
+    max-width: 80%;
+    text-align: center;
+}
+.container_about_woman{
+    flex-direction: column-reverse;
+}
+.container_about_woman .container_about_text p{
+    align-self: center;
+}
+#man,
+#woman {
+    align-self: center;
+    max-width: 90%;
+    max-height: 50%;
+    transform: scale(0.8, 0.8);
+
+}
+.container_about_text{
+    gap: 1vw;
+}
+.container_about_text p {
+    font-size: 4vw;
+    max-width: 100%;
+    margin: 0;
+
+}
+.container_about_text h3{
+    font-size: 6vw;
+}
+#block4_flower_end {
+    max-width: 12%;
+    align-self: center;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 }
