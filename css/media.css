@@ -57,7 +57,7 @@
         font-size: 7vw;
     }
     #block2 {
-    max-width: 90%;
+        max-width: 90%;
         margin-top: 30%;
     }
     #block2_flower {
@@ -156,8 +156,19 @@
     .timeline{
         display: block;
     }
+    
+    #block6 {
+        margin: 0;
+    }
+
+    #timeline_block{
+        width: 100%;
+    }
+    #block7{
+        margin-top: 10vh; 
+    }
     #block7 span{
-        margin-top: 7vh;
+        margin-top: 2vh;
         font-size: 2.1vh;
         line-height: 4vh;
         max-width: 95%;
