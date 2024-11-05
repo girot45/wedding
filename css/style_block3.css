@@ -34,7 +34,7 @@
     font-family: 'El Messiri';
     font-style: normal;
     font-weight: 300;
-    font-size: 5vh;
+    font-size: 4vh;
     color: #85B089;
 }
 
@@ -52,6 +52,6 @@
 #timer_flower{
     position: absolute;
     max-width: 5%;
-    transform: translateX(12vw) translateY(1vh);
+    transform: translateX(14vw) translateY(-1vh);
     z-index: 1;
 }
