@@ -162,7 +162,8 @@
     }
 
     #timeline_block{
-        width: 100%;
+        max-width: 120%;
+        margin-top: 1vh;
     }
     #block7{
         margin-top: 10vh; 
