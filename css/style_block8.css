@@ -11,6 +11,7 @@
 }
 .leaves #leaves_bottom{
     margin-left: auto;
+    max-width: 15%;
     transform: translateX(1vw);
 }
 #block8 span{

@@ -8,15 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/minify.css">
     <link rel="stylesheet" href="css/style_main.css">
-    <link rel="stylesheet" href="css/style_block1.css">
-    <link rel="stylesheet" href="css/style_block2.css">
-    <link rel="stylesheet" href="css/style_block3.css">
-    <link rel="stylesheet" href="css/style_block4.css">
     <link rel="stylesheet" href="css/style_block5.css">
-    <link rel="stylesheet" href="css/style_block6.css">
-    <link rel="stylesheet" href="css/style_block7.css">
-    <link rel="stylesheet" href="css/style_block8.css">
     <link rel="stylesheet" href="css/media.css">
     
 </head>
@@ -205,6 +201,10 @@
             <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
         </div>
         <img id="timeline_block"  src="imgs/timeline.svg" alt="">
+        <div class="aftertimelinetext">
+            <p>Мы надеемся, что водная прогулка пройдет по плану, но готовимся к разным поворотам судьбы :)</p>
+        </div>
+        <img id="block6flower" src="imgs\watercolor-artistic-floral-branch-collection 7.png" alt="">
 
         
 
@@ -237,7 +237,7 @@
             Ресторан Vinity, ул. Потёмкинская, 4А <br>
             <strong>Сбор гостей в 13:00</strong>
         </span>
-            <img id="map"  src="imgs/map.png" alt="">
+            <img id="map" src="imgs/map.png" alt="123123">
             <img id="pink_flower"  src="imgs/heart 4.png" alt="">
         
         
@@ -247,10 +247,81 @@
             <h3>ваше присутствие</h3>
             <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
         </div>
+            <form id="dataForm" onsubmit="return postToGoogle();" class="p-4 border w-50 rounded bg-light my-5">
+    <div class="form-row d-flex gap-2">
+        <div class="form-group col-md-6">
+            <label for="namefield">Имя:</label>
+            <input id="namefield" name="entry.1809992425" type="text" class="form-control" required>
+        </div>
+        <div class="form-group col-md-6 ">
+            <label for="phone">Телефон:</label>
+            <input id="phone" name="entry.2103425631" type="text" class="form-control" required>
+        </div>
     </div>
+    <div class="form-row d-flex gap-2 ">
+        <div class="form-group col-md-6">
+            <label for="surnamefield">Фамилия:</label>
+            <input id="surnamefield" name="entry.1051885786" type="text" class="form-control" required>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="tg">Телеграм (если есть):</label>
+            <input id="tg" name="entry.449333618" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <p>Вы сможете присутствовать на нашем торжестве?</p>
+        <div class="form-check">
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio1" value="Да, я приду">
+            <label class="form-check-label" for="radio1">Да, я приду</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio2" value="Да, я приду с парой">
+            <label class="form-check-label" for="radio2">Да, я приду с парой</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio3" value="К сожалению, не смогу присутствовать">
+            <label class="form-check-label" for="radio3">К сожалению, не смогу присутствовать</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="fact">Напишите интересный факт о себе:</label>
+        <textarea id="fact" name="entry.1131927839" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2 ">Отправить</button>
+</form>
+
+
+        </div>
 
     <script src="js/timer.js"></script>
+
+
+
+
 <script>
+    function postToGoogle() {
+    const url = "https://script.google.com/macros/s/AKfycbz8dIIriRHC5xsLA8UDp8-xuZgRXUm0wAP8rL6ZEXuP4xLtsT3aby_f5El3f9d5VgOsIw/exec"; // Вставьте URL вашего веб-приложения
+    const formData = new FormData(document.getElementById("dataForm"));
+
+    fetch(url, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData
+    })
+    .then(response => {
+      alert("Ответ успешно отправлен!");
+    })
+    .catch(error => {
+      alert("Ошибка при отправке данных!");
+      console.error("Ошибка:", error);
+    });
+
+    return false; // Чтобы предотвратить перезагрузку страницы
+  }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    
     function adjustImageWidths() {
         // Получаем все элементы с классом "header"
         const headers = document.querySelectorAll('.header');

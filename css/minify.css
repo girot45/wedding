@@ -1,0 +1,633 @@
+.line-with-dots {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 60vh;
+    width: 70%
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.history_img {
+    transform: translateY(-7vh);
+    width: 40%;
+    z-index: 1
+}
+
+.text {
+    bottom: calc(100% + 5px);
+    color: #566660;
+    font-family: Actinia;
+    font-size: 2vw;
+    font-weight: 700;
+    left: 50%;
+    line-height: 2vh;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%)
+}
+
+.line-wrapper {
+    bottom: 100%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%
+}
+
+.label {
+    color: #566660;
+    font-family: 'El Messiri';
+    font-size: 4vh;
+    font-weight: 500;
+    line-height: 5vh;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    transform: translateY(5vh)
+}
+
+.line {
+    border-left: 2px dashed #FFB5B8;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: .1px
+}
+
+#horizontal_line {
+    align-self: center;
+    border-top: 4px solid #FFB5B8;
+    content: "";
+    min-width: calc(59vw - 20px);
+    position: relative;
+    transform: translateY(calc(-13vh - 2px))
+}
+
+.opacity {
+    opacity: 70%
+}
+
+.timeline {
+    display: none;
+    margin-top: 7vh;
+    max-width: 1140px;
+    position: relative;
+    width: 100%
+}
+
+.timeline::after {
+    background: #FFB5B8;
+    bottom: 0;
+    content: '';
+    left: 50%;
+    margin-left: -1px;
+    max-height: 82%;
+    position: absolute;
+    top: 0;
+    width: 2px
+}
+
+.block {
+    background: inherit;
+    padding: 0 50px;
+    padding-bottom: 150px;
+    position: relative;
+    width: 50%
+}
+
+.block .right {
+    color: #566660;
+    font-family: 'El Messiri';
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 300;
+    left: 50%;
+    letter-spacing: 1px;
+    line-height: 100%;
+    z-index: 1
+}
+
+.block::after {
+    border-top: 2px dashed #FFB5B8;
+    content: '';
+    height: 2px;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    width: 50px;
+    z-index: 1
+}
+
+.block .right::after {
+    left: -8px
+}
+
+.block::before {
+    border-top: 2px dashed #FFB5B8;
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    z-index: 1
+}
+
+.block .right::before {
+    left: -50px
+}
+
+.block .date {
+    color: #566660;
+    font-family: 'Actinia';
+    font-size: 100%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(-90%);
+    z-index: 1
+}
+
+.block .hiistory_img {
+    left: -15px;
+    max-width: 30px;
+    position: absolute;
+    top: -10px
+}
+
+.block .right .date {
+    left: -15vw
+}
+
+.block:nth-child(2) .content {
+    transform: translateY(-7px)
+}
+
+#chinarose {
+    left: -4%;
+    max-width: 39%;
+    position: absolute;
+    top: 30px
+}
+
+#abstractbg {
+    position: absolute;
+    width: 100%
+}
+
+#block1 {
+    background-image: linear-gradient(to bottom, #0000 0%, #f3f4f1ff 100%), url(/imgs/abstract-green-watercolor-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    height: 100vh
+}
+
+nav {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    position: relative;
+    z-index: 9
+}
+
+#wedding_text {
+    align-self: flex-end;
+    color: #85B089;
+    font-family: 'Actinia';
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 250;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+#rightpart {
+    text-align: right;
+    z-index: 9
+}
+
+nav a p {
+    color: #383838;
+    font-family: "El Messiri", sans-serif;
+    font-size: 1.33vw;
+    font-weight: 500
+}
+
+#heart1 {
+    max-width: 30%
+}
+
+#wedding_text_heart,
+#center,
+#sdfasd {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end
+}
+
+#sdfasd {
+    flex-direction: column;
+    float: right;
+    gap: 2em;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    text-align: right
+}
+
+#pinkrose {
+    margin: 0;
+    margin-top: 8vh;
+    max-width: 52%;
+    position: absolute;
+    right: 0;
+    transform: translateX(75%)
+}
+
+#Group4 {
+    align-items: stretch;
+    display: flex;
+    gap: 2.7vw;
+    justify-content: flex-end;
+    margin-left: 5%;
+    max-width: 80%;
+    position: relative;
+    transform: translateY(-50%)
+}
+
+.names {
+    align-self: center;
+    color: #566660;
+    font-family: 'El Messiri';
+    font-size: 4.8vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19vh;
+    margin: 0
+}
+
+#Vector {
+    align-self: center;
+    max-width: 20%
+}
+
+#date_text {
+    color: #85B089;
+    font-family: 'Actinia';
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6vh;
+    margin: 0;
+    margin-left: 12%;
+    margin-top: 7%;
+    padding: 0;
+    text-align: center;
+    transform: translateY(60%)
+}
+
+#heart123 {
+    display: flex;
+    justify-content: center;
+    max-width: 70%
+}
+
+#heart4 {
+    margin: 0;
+    margin-top: 10%;
+    max-width: 5%;
+    position: absolute
+}
+
+#block2 {
+    margin-top: 30vh;
+    max-width: 60%
+}
+
+#block2_flower {
+    align-self: flex-end;
+    max-width: 7%;
+    position: absolute;
+    transform: translateX(15vw)
+}
+
+#block2 p {
+    color: #566660;
+    font-family: 'El Messiri';
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 6vh;
+    margin: 0;
+    margin-top: 10vh;
+    max-width: 85%;
+    text-align: center
+}
+
+#leaves {
+    max-width: 15%;
+    transform: translateX(-3vw)
+}
+
+#block3 {
+    margin-top: 15vh;
+    max-width: 60%
+}
+
+#block3 .header {
+    margin-bottom: 10vh
+}
+
+.timer__items {
+    display: flex;
+    font-size: 8vw
+}
+
+.timer__item {
+    color: #566660;
+    font-family: 'Actinia';
+    margin-left: 3vw;
+    margin-right: 5vw;
+    min-width: 6vw;
+    padding-bottom: 0;
+    position: relative;
+    text-align: center
+}
+
+.timer__item::before {
+    bottom: -2vw;
+    color: #85B089;
+    content: attr(data-title);
+    display: block;
+    font-family: 'Actinia';
+    font-family: 'El Messiri';
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 300;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%)
+}
+
+.timer__item:not(:last-child)::after {
+    color: #85B089;
+    content: ':';
+    font-family: 'Actinia';
+    position: absolute;
+    right: -5vw
+}
+
+.timer__days {
+    position: relative;
+    z-index: 9999
+}
+
+#timer_flower {
+    max-width: 5%;
+    position: absolute;
+    transform: translateX(14vw) translateY(-1vh);
+    z-index: 1
+}
+
+#block4 {
+    margin-top: 30vh
+}
+
+#block4_flower {
+    max-height: 35%;
+    position: absolute;
+    right: 10%
+}
+
+#man,
+#woman {
+    max-height: 10%;
+    max-width: 28%;
+    transform: scale(1, 0.8);
+    transform-origin: center center
+}
+
+.content_about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10vh
+}
+
+.container_about_man,
+.container_about_woman {
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    max-width: 76%
+}
+
+.container_about_woman {
+    text-align: end
+}
+
+.container_about_text {
+    display: flex;
+    flex-direction: column
+}
+
+.container_about_text h3 {
+    font-family: 'El Messiri';
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0
+}
+
+.container_about_man .container_about_text h3 {
+    color: #C2D8AE
+}
+
+.container_about_woman .container_about_text h3 {
+    color: #FFB5B8
+}
+
+.container_about_text p {
+    font-family: 'El Messiri';
+    font-size: 2.1vw;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 95%;
+    word-wrap: break-word
+}
+
+.container_about_woman .container_about_text p {
+    align-self: self-end
+}
+
+#block4_flower_end {
+    align-self: start;
+    margin-left: 10vw;
+    max-width: 10%
+}
+
+#block6 {
+    margin-top: 20vh
+}
+
+#timeline_block {
+    margin: 0;
+    margin-top: 10vh;
+    max-width: 90%
+}
+
+#block6 p {
+    color: #000;
+    font-family: 'El Messiri';
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6vh
+}
+
+.aftertimelinetext {
+    display: flex;
+    max-width: 60%
+}
+
+#block6flower {
+    align-self: flex-end;
+    margin: 0;
+    max-width: 4%;
+    transform: translateX(-10vw)
+}
+
+#block7 {
+    margin-top: 0
+}
+
+#block7 span {
+    font-family: 'El Messiri';
+    font-size: 4.5vh;
+    font-weight: 400;
+    line-height: 8vh;
+    margin: 0;
+    margin-top: 5vh;
+    max-width: 60%;
+    text-align: center
+}
+
+.circles {
+    display: flex;
+    gap: 4vw;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-top: 10vh;
+    max-width: 70%
+}
+
+.circle {
+    border: .3vh solid #F4F3F1;
+    border-radius: 50%;
+    height: 9vh;
+    width: 9vh
+}
+
+.a {
+    background-color: #A6C6DD;
+    box-shadow: 0 0 0 .5vh #A6C6DD
+}
+
+.b {
+    background-color: #C5DEF2;
+    box-shadow: 0 0 0 .5vh #C5DEF2
+}
+
+.c {
+    background-color: #CFDED9;
+    box-shadow: 0 0 0 .5vh #CFDED9
+}
+
+.d {
+    background-color: #CADBBB;
+    box-shadow: 0 0 0 .5vh #CADBBB
+}
+
+.e {
+    background-color: #FCE2E3;
+    box-shadow: 0 0 0 .5vh #FCE2E3
+}
+
+#pink_flower {
+    align-self: start;
+    margin: 0;
+    margin-left: 12vw;
+    margin-top: 4vh;
+    max-width: 10vh
+}
+
+#leaves_block7 {
+    align-self: start;
+    display: none;
+    margin-top: 6vh;
+    max-width: 25%;
+    transform: translateX(-3vw)
+}
+
+#block8 {
+    margin-top: 7vh
+}
+
+.leaves {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100%
+}
+
+.leaves #leaves_bottom {
+    margin-left: auto;
+    max-width: 15%;
+    transform: translateX(1vw)
+}
+
+#block8 span {
+    font-family: 'El Messiri';
+    font-size: 5vh;
+    font-weight: 400;
+    line-height: 7vh;
+    text-align: center
+}
+
+#map {
+    margin: 0;
+    padding: 0;
+    margin-top: 7vh;
+    max-width: 56%;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #F4F3F1;
+    box-shadow: 0px 4px 25px 0px #56666026;
+}
+
+.centergroup,
+.container_about_text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}

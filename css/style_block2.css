@@ -1,14 +1,13 @@
-#block2{
+#block2 {
     max-width: 60%;
-    margin-top: 30vh;
+    margin-top: 30vh
 }
 
-#block2_flower{
+#block2_flower {
     max-width: 7%;
-    align-self: end;
+    align-self: flex-end;
     position: absolute;
-    transform: translateX(15vw);
-    
+    transform: translateX(15vw)
 }
 
 #block2 p {
@@ -21,10 +20,10 @@
     line-height: 6vh;
     text-align: center;
     max-width: 85%;
-
-    color: #566660;
+    color: #566660
 }
-#leaves{
-    max-width: 15% ;
-    transform: translateX(-3vw);
+
+#leaves {
+    max-width: 15%;
+    transform: translateX(-3vw)
 }

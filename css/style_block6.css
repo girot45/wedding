@@ -7,3 +7,23 @@
     margin-top: 10vh;
     max-width: 90%;
 }
+
+#block6 p{
+   
+        font-family: 'El Messiri';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 6vh;
+        color: #000000;
+}
+.aftertimelinetext{
+    display: flex;
+    max-width: 60%;
+}
+#block6flower{
+    margin: 0;
+    max-width: 4%;
+    align-self: flex-end;
+    transform: translateX(-10vw);
+}

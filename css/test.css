@@ -1,0 +1,115 @@
+#block2 {
+    max-width: 60%;
+    margin-top: 30vh
+}
+
+#block2_flower {
+    max-width: 7%;
+    align-self: end;
+    position: absolute;
+    transform: translateX(15vw)
+}
+
+#block2 p {
+    margin: 0;
+    margin-top: 10vh;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2vw;
+    line-height: 6vh;
+    text-align: center;
+    max-width: 85%;
+    color: #566660
+}
+
+#leaves {
+    max-width: 15%;
+    transform: translateX(-3vw)
+}
+
+#block4 {
+    margin-top: 30vh
+}
+
+#block4_flower {
+    position: absolute;
+    max-height: 35%;
+    right: 10%
+}
+
+#man,
+#woman {
+    max-width: 28%;
+    max-height: 10%;
+    transform: scale(1, 0.8);
+    transform-origin: center center
+}
+
+.content_about {
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh
+}
+
+.container_about_man,
+.container_about_woman {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    max-width: 76%
+}
+
+.container_about_woman {
+    text-align: end
+}
+
+.container_about_text {
+    display: flex;
+    flex-direction: column
+}
+
+.container_about_text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.container_about_text h3 {
+    margin: 0;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw
+}
+
+.container_about_man .container_about_text h3 {
+    color: #C2D8AE
+}
+
+.container_about_woman .container_about_text h3 {
+    color: #FFB5B8
+}
+
+.container_about_text p {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.1vw;
+    word-wrap: break-word;
+    max-width: 95%
+}
+
+.container_about_woman .container_about_text p {
+    align-self: self-end
+}
+
+#block4_flower_end {
+    max-width: 10%;
+    align-self: start;
+    margin-left: 10vw
+}
