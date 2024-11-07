@@ -215,6 +215,10 @@
     #leaves_block7 {
         display: block
     }
+    #dataForm{
+        margin: 0;
+        width: 75%;
+    }
     #dataForm .form-row {
         flex-direction: column;
     }
