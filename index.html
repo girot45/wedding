@@ -247,48 +247,49 @@
             <h3>ваше присутствие</h3>
             <img class="header_background" src="imgs/abstract-green-watercolor-background 3 (1).png" alt="">
         </div>
-            <form id="dataForm" onsubmit="return postToGoogle();" class="p-4 border rounded bg-light my-5">
-    <div class="form-row d-flex gap-2">
-        <div class="form-group col-md-6">
+<form id="dataForm" style="background-color: #e3f3e2;" onsubmit="return postToGoogle();" class="p-4 border rounded my-5">
+    <div class="d-flex gap-2 mb-3">
+        <div class="form-group w-50">
             <label for="namefield">Имя:</label>
             <input id="namefield" name="entry.1809992425" type="text" class="form-control" required>
         </div>
-        <div class="form-group col-md-6 ">
+        <div class="form-group w-50">
             <label for="phone">Телефон:</label>
             <input id="phone" name="entry.2103425631" type="tel" class="form-control" required>
         </div>
     </div>
-    <div class="form-row d-flex gap-2 ">
-        <div class="form-group col-md-6">
+    <div class="d-flex gap-2 mb-3">
+        <div class="form-group w-50">
             <label for="surnamefield">Фамилия:</label>
             <input id="surnamefield" name="entry.1051885786" type="text" class="form-control" required>
         </div>
-        <div class="form-group col-md-6">
-            <label for="tg">Телеграм (если есть):</label>
+        <div class="form-group w-50">
+            <label for="tg">Ссылка на Телеграм:</label>
             <input id="tg" name="entry.449333618" type="text" class="form-control">
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group mb-3">
         <p>Вы сможете присутствовать на нашем торжестве?</p>
         <div class="form-check">
-            <input class="form-check-input" name="entry.637879457" type="radio" id="radio1" value="Да, я приду" checked>
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio1" value="Да, я приду" checked onchange="toggleTextarea()">
             <label class="form-check-label" for="radio1">Да, я приду</label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" name="entry.637879457" type="radio" id="radio2" value="Да, я приду с парой">
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio2" value="Да, я приду с парой" onchange="toggleTextarea()">
             <label class="form-check-label" for="radio2">Да, я приду с парой</label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" name="entry.637879457" type="radio" id="radio3" value="К сожалению, не смогу присутствовать">
+            <input class="form-check-input" name="entry.637879457" type="radio" id="radio3" value="К сожалению, не смогу присутствовать" onchange="toggleTextarea()">
             <label class="form-check-label" for="radio3">К сожалению, не смогу присутствовать</label>
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group mb-3 " id="factGroup" >
         <label for="fact">Напишите интересный факт о себе:</label>
-        <textarea id="fact" name="entry.1131927839" class="form-control" required></textarea>
+        <textarea id="fact" name="entry.1131927839" class="form-control"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary mt-2 ">Отправить</button>
+    <button type="submit" class="btn btn-primary mt-2">Отправить</button>
 </form>
+
 
 
         </div>
@@ -297,7 +298,25 @@
 
 
 
-
+<script>
+    function toggleTextarea() {
+        const radio1 = document.getElementById('radio1');
+        const radio2 = document.getElementById('radio2');
+        const factGroup = document.getElementById('factGroup');
+        
+        if (radio1.checked || radio2.checked) {
+            factGroup.classList.remove = 'd-none';
+        } else {
+            if (!(factGroup.classList.contains('d-none'))){
+                factGroup.classList.add = 'd-none';
+            }
+            
+        }
+    }
+    
+    // Инициализируем начальное состояние
+    toggleTextarea();
+</script>
 <script>
     function postToGoogle() {
     const url = "https://script.google.com/macros/s/AKfycbz8dIIriRHC5xsLA8UDp8-xuZgRXUm0wAP8rL6ZEXuP4xLtsT3aby_f5El3f9d5VgOsIw/exec"; // Вставьте URL вашего веб-приложения

@@ -67,7 +67,7 @@
     }
 
     #block2 {
-        margin-top: 30%;
+        margin-top: 50%;
         max-width: 90%
     }
 
@@ -225,16 +225,21 @@
         margin: 0;
         width: 90%;
     }
-    #dataForm .form-row {
-        flex-direction: column;
-    }
+    #dataForm label,
+    #dataForm p {
 
+        font-size: .9em;
+    }
+    .aftertimelinetext{
+        max-width: 86%
+    }
     #dataForm .form-group {
         width: 100%;
     }
     #block6 p {
-        font-size: 1em;
+        font-size: 2.1vh;
         line-height: 3vh;
+        
     }
     #block6flower {
         max-width: 6%;
