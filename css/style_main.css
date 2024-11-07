@@ -58,3 +58,7 @@ a {
 #dataForm{
     width: 50%
 }
+
+#dataForm label{
+        font-family: 'El Messiri';
+}

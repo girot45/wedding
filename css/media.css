@@ -215,9 +215,15 @@
     #leaves_block7 {
         display: block
     }
+    #map{
+        width: 90%;
+    }
+    #block9{
+        margin-top: 10vh;
+    }
     #dataForm{
         margin: 0;
-        width: 75%;
+        width: 90%;
     }
     #dataForm .form-row {
         flex-direction: column;
